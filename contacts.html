@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      id="fs-frm"
+      name="simple-contact-form"
+      accept-charset="utf-8"
+      action="https://formspree.io/f/mkgngbdw"
+      method="post"
+    >
+      <fieldset id="fs-frm-inputs">
+        <label for="full-name">Nome Intero</label>
+        <input
+          type="text"
+          name="name"
+          id="full-name"
+          placeholder="Nome e Cognome"
+          required=""
+        />
+        <label for="email-address">Email</label>
+        <input
+          type="email"
+          name="_replyto"
+          id="email-address"
+          placeholder="esempio@gmail.com"
+          required=""
+        />
+        <label for="message">Messaggio</label>
+        <textarea
+          rows="5"
+          name="message"
+          id="message"
+          placeholder="La mia idea è..."
+          required=""
+        ></textarea>
+        <input
+          type="hidden"
+          name="_subject"
+          id="email-subject"
+          value="Contact Form Submission"
+        />
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

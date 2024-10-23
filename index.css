@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+}
+#video_canvas {
+  background-color: aquamarine;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  width: 100vw;
+}
+#video_presentazione {
+  aspect-ratio: 16/9;
+  background-color: rgb(205, 166, 117);
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+}
+#logo_landing {
+  height: 411px;
+  width: 670px;
+  z-index: 1;
+}
+#CTA_span {
+  animation-delay: -1s;
+  animation-duration: 15s;
+  animation-iteration-count: 1;
+  animation-name: prova;
+  aspect-ratio: 16/9;
+  background-color: aqua;
+  display: grid;
+  height: 50px;
+  place-items: center;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 2;
+}
+#CTA_span:hover {
+  background-color: rgb(77, 76, 76);
+  box-shadow: 3px;
+}
+#CTA_anchor {
+  animation-delay: -1s;
+  animation-duration: 15s;
+  animation-iteration-count: 1;
+  animation-name: prova;
+  color: black;
+  cursor: default;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.span_parola_importante {
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* Stile minimale per il form */
+form {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 400px;
+  padding: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"] {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+button[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  padding: 10px;
+  width: 100%;
+}
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+#CTA_anchor:hover {
+  cursor: default;
+}
+@keyframes prova {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
